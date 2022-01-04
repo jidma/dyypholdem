@@ -62,12 +62,12 @@ save_best_epoch = True
 # learning rate for neural net training
 learning_rate = 0.001
 # resume training if a final model already exists
-resume_training = False
+resume_training = True
 
 
 """Section Torch"""
 # flag to use GPU for calculations
-use_gpu = False
+use_gpu = True
 # default tensor types
 if not use_gpu:
     Tensor = torch.FloatTensor
