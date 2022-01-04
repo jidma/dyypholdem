@@ -67,7 +67,7 @@ resume_training = False
 
 """Section Torch"""
 # flag to use GPU for calculations
-use_gpu = True
+use_gpu = False
 # default tensor types
 if not use_gpu:
     Tensor = torch.FloatTensor
