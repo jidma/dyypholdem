@@ -15,6 +15,8 @@ RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.d
 RUN apt-get install git-lfs -y
 RUN git lfs install
 
+RUN apt install locales-all -y
+
 # WORKDIR
 WORKDIR /app
 
