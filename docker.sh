@@ -1,7 +1,7 @@
 #/bin/bash
 
-IMAGE=mlaissi/test-image-conda:v0.1
-CONTAINER=test-container-conda:
+IMAGE=mlaissi/test-image-conda:v0.2
+CONTAINER=test-container-conda
 
 docker container stop $CONTAINER
 docker container rm $CONTAINER
